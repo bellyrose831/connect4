@@ -1,0 +1,113 @@
+body {
+    background-color: rgb(110, 153, 218);
+    width: 100%;
+    margin: 0;
+}
+
+
+/* fonts */
+
+.atma-light {
+    font-family: "Atma", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+  
+.atma-regular {
+    font-family: "Atma", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.atma-medium {
+    font-family: "Atma", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+  
+.atma-semibold {
+    font-family: "Atma", serif;
+    font-weight: 600;
+    font-style: normal;
+}
+  
+.atma-bold {
+    font-family: "Atma", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.honk-honk {
+    font-family: "Honk", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "MORF" 15,
+      "SHLN" 50;
+  }
+  
+
+/* board */
+
+.board {
+    width: 80%;
+    position: absolute;
+    top: 25%;
+    left: 10%;
+}
+
+.board td {
+    padding-top: 10px;
+    align-content: center;
+}
+
+.board thead td {
+    align-content: center;
+}
+
+.spot {
+    background-color: rgb(211, 211, 211);
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    margin: auto;
+}
+
+.board button {
+    margin: auto;
+    width: 75px;
+    display: block;
+}
+
+/* nav */
+
+.nav {
+    background-color: black;
+    width: 100%;
+    padding: 5px;
+    font-size: 20px;
+    color: purple;
+}
+
+.material-symbols-outlined {
+    font-size: 35px;
+    color: purple;
+}
+
+h1 {
+    color: navy;
+    text-align: center;
+    font-size: 60px;
+    margin: 10px;
+}
+
+#testingAnimation {
+    width: 20px;
+    height: 20px;
+    background-color: orange;
+    border-radius: 10px;
+    position: relative;
+    left: 100px;
+    display: none;
+}
