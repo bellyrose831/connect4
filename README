@@ -1,0 +1,18 @@
+done so far:
+  basic html: nav bar, board
+  basic css: fonts, nav bar, board
+  basic js: drops pieces when "DROP" is clicked, switches turns, checks for win conditions
+
+
+future work:
+  working nav links (where should these go to?)
+  win screen
+  modal with instructions on page load
+  display of whose turn it is
+  movement/animation using GSAP library to show pieces falling into the correct slots
+  rebuild UI using REACT
+  use node.js and express.js to add a server side
+  use socket.io to make the game work with two players on different devices
+    update page and game to implement this feature - let players choose whether to play on one computer or two
+  login functionality for the game?
+  implement database backend to keep stats on logged in players?
